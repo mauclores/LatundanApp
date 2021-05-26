@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/citiesFragment">
+
+    <fragment
+        android:id="@+id/citiesFragment"
+        android:name="com.mauclores.latundanapp.ui.cities.CitiesFragment"
+        android:label="Main Cities in Japan"
+        tools:layout="@layout/fragment_cities">
+        <action
+            android:id="@+id/action_citiesFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/foodFragment"
+        android:name="com.mauclores.latundanapp.ui.food.FoodFragment"
+        android:label="Most Popular Japanese Food"
+        tools:layout="@layout/fragment_food" />
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.mauclores.latundanapp.ui.cities.DetailsFragment"
+        android:label="Details"
+        tools:layout="@layout/fragment_city_details" >
+        <argument
+            android:name="city"
+            app:argType="com.mauclores.latundanapp.data.cities.City" />
+    </fragment>
+</navigation>
