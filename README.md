@@ -1,6 +1,6 @@
 # Android Demo
 - Shows a list that includes cities and food by fetching from the following endpoint: 
-  - https://api.npoint.io/a2b63ef226c08553b2f9
+  - https://api.npoint.io/7fa8344c8749d39e7cdc
 
 ## Screenshots
 <p float="left">
