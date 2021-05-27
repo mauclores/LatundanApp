@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/citiesFragment"
         android:name="com.mauclores.latundanapp.ui.cities.CitiesFragment"
-        android:label="Main Cities in Japan"
+        android:label="Popular Cities in the Philippines"
         tools:layout="@layout/fragment_cities">
         <action
             android:id="@+id/action_citiesFragment_to_detailsFragment"
@@ -17,7 +17,7 @@
     <fragment
         android:id="@+id/foodFragment"
         android:name="com.mauclores.latundanapp.ui.food.FoodFragment"
-        android:label="Most Popular Japanese Food"
+        android:label="Popular Filipino Dishes"
         tools:layout="@layout/fragment_food" />
     <fragment
         android:id="@+id/detailsFragment"

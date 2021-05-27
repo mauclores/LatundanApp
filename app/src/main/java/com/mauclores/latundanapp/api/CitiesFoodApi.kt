@@ -8,6 +8,6 @@ interface CitiesFoodApi {
         const val BASE_URL = "https://api.npoint.io/"
     }
 
-    @GET("a2b63ef226c08553b2f9")
+    @GET("7fa8344c8749d39e7cdc")
     suspend fun getCitiesAndFood(): CitiesFoodResponse
 }

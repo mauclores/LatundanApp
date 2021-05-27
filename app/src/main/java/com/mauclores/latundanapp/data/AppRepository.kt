@@ -43,6 +43,7 @@ class AppRepository @Inject constructor(
         },
         saveFetchResult = {
             db.withTransaction {
+                foodDao.deleteAllFood()
                 foodDao.insertAllFood(it.foods)
             }
         }
