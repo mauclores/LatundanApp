@@ -1,5 +1,8 @@
-# Android Demo
-- Shows a list that includes cities and food by fetching from the following endpoint: 
+# Aim
+- To demonstrate the usage of Android Architecture Components
+
+# Latundan App
+- Shows popular cities and food in the Philippines by fetching from the following endpoint: 
   - https://api.npoint.io/7fa8344c8749d39e7cdc
 
 ## Screenshots
